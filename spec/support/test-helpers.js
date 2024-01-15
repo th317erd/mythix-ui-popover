@@ -6,6 +6,8 @@ import {
   isPlainObject,
 } from './snapshot.js';
 
+import * as _ from './global-support.js';
+
 beforeEach(function() {
   jasmine.addMatchers({
     toMatchSnapshot: function() {

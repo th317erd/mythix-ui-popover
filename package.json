@@ -9,7 +9,7 @@
   },
   "scripts": {
     "coverage": "clear ; node ./node_modules/.bin/nyc ./node_modules/.bin/jasmine",
-    "test": "node ./node_modules/.bin/jasmine",
+    "test": "./node_modules/.bin/jasmine",
     "test-debug": "node --inspect-brk ./node_modules/.bin/jasmine",
     "test-watch": "watch 'clear ; node ./node_modules/.bin/jasmine' . --wait=2 --interval=1"
   },
@@ -24,8 +24,9 @@
     "@spothero/eslint-plugin-spothero": "github:spothero/eslint-plugin-spothero",
     "colors": "^1.4.0",
     "diff": "^5.1.0",
-    "eslint": "^8.54.0",
+    "eslint": "^8.56.0",
     "jasmine": "^5.1.0",
-    "jsdom": "^23.0.0"
+    "jsdom": "^23.2.0",
+    "mythix-ui-core": "^1.0.8"
   }
 }
