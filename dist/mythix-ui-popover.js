@@ -1,4 +1,4 @@
-import { MythixUIComponent } from 'mythix-ui-core';
+import { MythixUIComponent } from '@cdn/mythix-ui-core@1';
 
 const ANCHOR_ALIGNMENT_RE = /((?:\d+(?:\.\d+)?||(?:\.\d+)?)(?:[eE][+-]\d+)?)(\s*[+-]\s*(?:\d+(?:\.\d+)?||(?:\.\d+)?)([eE][+-]\d+)?[a-zA-Z%]+)?/g;
 
