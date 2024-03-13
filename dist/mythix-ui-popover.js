@@ -314,8 +314,10 @@ export class MythixUIPopover extends MythixUIComponent {
   }
 
   updateAnchorAlignment(anchorElement, anchorAlignment) {
-    if (!anchorElement)
+    if (!anchorElement) {
+      console.log('ABORTING! NO ANCHOR ELEMENT!');
       return;
+    }
 
     let alignments  = this.parseAnchorAlignment(anchorAlignment);
     let popoverRect = this.getBoundingClientRect();
@@ -363,8 +365,10 @@ export class MythixUIPopover extends MythixUIComponent {
     //   popoverPoint,
     // });
 
-    if (!anchorPoint || !popoverPoint)
+    if (!anchorPoint || !popoverPoint) {
+      console.log('ABORTING! NO POINT!', { anchorPoint, popoverPoint });
       return;
+    }
 
     let diffX = anchorPoint.x - popoverPoint.x;
     let diffY = anchorPoint.y - popoverPoint.y;

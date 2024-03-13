@@ -1,7 +1,7 @@
 {
   "name": "mythix-ui-popover",
-  "version": "1.0.0",
-  "description": "A tabbed view component for Mythix UI",
+  "version": "0.0.9",
+  "description": "A popover component for Mythix UI",
   "main": "dist/mythix-ui-popover.js",
   "type": "module",
   "directories": {
